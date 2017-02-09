@@ -139,5 +139,5 @@ def backup():
 login()
 #帶進function的string值放在()裡面，帶出來的string放在return中，function中會用到的值也可以放在global中
 mac,firmware_long = status()
-print firmware_long
+#print firmware_long
 backup()
